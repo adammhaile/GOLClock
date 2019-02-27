@@ -1,0 +1,36 @@
+Step 1: Solder together the pads on J5 on the back of the LED matrix. That tells the matrix that it's the first one in the chain.
+
+Step 2: Solder the 10K resistor (Brown, Black, Orange) into R1
+
+Step 3: Solder the 110 ohm resistor (Brown, Brown, Brown) into R2.
+
+Step 4-whatever: Solder the rest of the components on the front of the board. Be sure the DIP switch panel is facing the right way up (the same orientation as the words "Josh Ward Game of Life Clock v1.0")
+
+Step 5: Solder the 10-pin socket to P1, on the bottom of the board.
+
+Step 6: Solder the 5-pin socket to the OUTSIDE pins of P2.  It will require a tiny bit of bending in order to place it in the socket.
+
+Step 7: Plug the entire board into the back of the LED Matrix, ensuring that P1 is in the socket closest to J5.
+
+Step 8: Plug it into a USB cable, and marvel at it actually working!  DIP settings below... Unplug and replug it to make sure new clock faces take effect immediately, and are cleanly drawn.
+
+000 - forwardClock
+
+001 - staticClock
+
+010 - meltClock
+
+011 - brightClock 
+
+100 - backwardClock
+
+101 - chartClock 
+
+110 - binaryClock 
+
+111 - epochClock 
+
+Switch #4 is used for brightness settings.  Either very bright, or very dim.
+
+
+
